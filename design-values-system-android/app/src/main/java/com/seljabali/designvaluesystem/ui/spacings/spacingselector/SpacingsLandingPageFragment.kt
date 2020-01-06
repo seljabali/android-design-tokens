@@ -1,4 +1,4 @@
-package com.seljabali.designvaluesystem.ui.landingpage
+package com.seljabali.designvaluesystem.ui.spacings.spacingselector
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,29 +8,27 @@ import com.seljabali.designvaluesystem.R
 import com.seljabali.designvaluesystem.ui.BaseFragment
 import com.seljabali.designvaluesystem.ui.HomeActivity
 import com.seljabali.designvaluesystem.ui.LandingItem
-import com.seljabali.designvaluesystem.ui.spacings.spacingselector.SpacingsLandingPageFragment
-import kotlinx.android.synthetic.main.fragment_landing_page.*
+import com.seljabali.designvaluesystem.ui.spacings.showcasing.SpacingsShowCasingFragment
+import kotlinx.android.synthetic.main.fragment_spacings_landing_page.*
 
-class LandingPageFragment : BaseFragment() {
+class SpacingsLandingPageFragment : BaseFragment() {
 
     companion object {
-        val TAG: String = LandingPageFragment::class.java.simpleName
-        fun newInstance(): LandingPageFragment =
-            LandingPageFragment()
+        val TAG: String = SpacingsLandingPageFragment::class.java.simpleName
+        fun newInstance() = SpacingsLandingPageFragment()
     }
 
-    lateinit var adapter: LandingPageAdapter
-
+    lateinit var adapter: SpacingsLandingPageAdapter
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? = inflater.inflate(
-        R.layout.fragment_landing_page, container, false)
+        R.layout.fragment_spacings_landing_page, container, false)
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        adapter = LandingPageAdapter {
+        adapter = SpacingsLandingPageAdapter {
             onPageItemClicked(it)
         }
-        adapter.setLandingPageItems(LandingPageItems.values() as Array<LandingItem>)
+        adapter.setLandingPageItems(SpacingsLandingItem.values() as Array<LandingItem>)
         landingPageGridView.adapter = adapter
     }
 
@@ -47,8 +45,10 @@ class LandingPageFragment : BaseFragment() {
     private fun onPageItemClicked(landingPageItem: LandingItem) {
         val homeActivity = baseActivity as HomeActivity
         when (landingPageItem) {
-            LandingPageItems.SPACING -> homeActivity.showFragment(SpacingsLandingPageFragment.newInstance(), SpacingsLandingPageFragment.TAG)
+            SpacingsLandingItem.LINEAR -> { } //TODO: Persist Selection
+            SpacingsLandingItem.NON_LINEAR -> { }
         }
+        homeActivity.showFragment(SpacingsShowCasingFragment.newInstance(), SpacingsShowCasingFragment.TAG)
         return
     }
 

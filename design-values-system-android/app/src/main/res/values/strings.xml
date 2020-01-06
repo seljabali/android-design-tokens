@@ -2,5 +2,21 @@
     <string name="app_name">Design Value System</string>
 
     <!-- Landing Page -->
+    <string name="spacings">Spacings</string>
+    <string name="text_sizes">Text Sizes</string>
+    <string name="corner_radius">Corner Radius</string>
+
+    <!-- Spacing -->
+    <string name="horizontal_spacings">Horizontal Spacings</string>
     <string name="vertical_spacings">Vertical Spacings</string>
+    <string name="padding">Padding</string>
+
+    <!-- Text Sizes -->
+    <string name="google_sizes">Google Sizes</string>
+    <string name="custom_sizes">Custom Sizes</string>
+    <string name="collection">Collection</string>
+    <string name="vertical">Vertical</string>
+    <string name="horizontal">Horizontal</string>
+    <string name="linear">Linear</string>
+    <string name="non_linear">Non-Linear</string>
 </resources>

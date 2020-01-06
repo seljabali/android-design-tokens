@@ -1,4 +1,4 @@
-package com.seljabali.designvaluesystem.ui.landingpage
+package com.seljabali.designvaluesystem.ui.spacings.spacingselector
 
 import android.view.LayoutInflater
 import android.view.View
@@ -9,7 +9,7 @@ import com.seljabali.designvaluesystem.R
 import com.seljabali.designvaluesystem.ui.LandingItem
 import io.reactivex.subjects.PublishSubject
 
-class LandingPageAdapter(private val clickListener: (LandingItem) -> Unit) : BaseAdapter() {
+class SpacingsLandingPageAdapter(private val clickListener: (LandingItem) -> Unit) : BaseAdapter() {
 
     companion object {
         const val THROTTLE_FIRST_S: Long = 1000
@@ -22,7 +22,7 @@ class LandingPageAdapter(private val clickListener: (LandingItem) -> Unit) : Bas
         val context = parent!!.context
         val landingPageItemAtPosition = getItem(position)
         with(
-            LandingPageViewHolder(
+            SpacingsLandingPageViewHolder(
                 convertView ?: LayoutInflater.from(context).inflate(
                     R.layout.item_page_item, parent, false
                 )

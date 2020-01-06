@@ -1,4 +1,4 @@
-package com.seljabali.designvaluesystem.ui.landingpage
+package com.seljabali.designvaluesystem.ui.spacings.spacingselector
 
 import android.view.View
 import android.widget.ImageView
@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.seljabali.designvaluesystem.R
 import com.seljabali.designvaluesystem.ui.LandingItem
 
-class LandingPageViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+class SpacingsLandingPageViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
     private val pageItemNameTextView: TextView = itemView.findViewById(R.id.pageItemNameTextView)
     private val pageItemIconImageView: ImageView = itemView.findViewById(R.id.pageItemIconImageView)
