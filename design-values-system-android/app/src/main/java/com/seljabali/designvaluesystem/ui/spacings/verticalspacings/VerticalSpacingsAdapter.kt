@@ -9,11 +9,10 @@ class VerticalSpacingsAdapter : RecyclerView.Adapter<VerticalSpacingsViewHolder>
 
     private var verticalSpacings: Array<VerticalSpacings> = emptyArray()
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VerticalSpacingsViewHolder {
-        return VerticalSpacingsViewHolder(LayoutInflater.from(parent.context).inflate(
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VerticalSpacingsViewHolder =
+        VerticalSpacingsViewHolder(LayoutInflater.from(parent.context).inflate(
             R.layout.item_vertical_spacing, parent, false
         ))
-    }
 
     override fun getItemCount(): Int =  verticalSpacings.size
 
@@ -30,5 +29,4 @@ class VerticalSpacingsAdapter : RecyclerView.Adapter<VerticalSpacingsViewHolder>
     }
 
     private fun getItem(position: Int): VerticalSpacings = verticalSpacings[position]
-
 }

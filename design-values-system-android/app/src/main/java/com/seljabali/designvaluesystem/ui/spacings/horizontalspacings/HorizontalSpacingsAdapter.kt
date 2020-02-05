@@ -9,12 +9,11 @@ class HorizontalSpacingsAdapter : RecyclerView.Adapter<HorizontalSpacingsViewHol
 
     private var horizontalSpacings: Array<HorizontalSpacings> = emptyArray()
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HorizontalSpacingsViewHolder {
-        return HorizontalSpacingsViewHolder(
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HorizontalSpacingsViewHolder =
+        HorizontalSpacingsViewHolder(
             LayoutInflater.from(parent.context).inflate(
                 R.layout.item_horizontal_spacing, parent, false
             ))
-    }
 
     override fun getItemCount(): Int =  horizontalSpacings.size
 
@@ -31,5 +30,4 @@ class HorizontalSpacingsAdapter : RecyclerView.Adapter<HorizontalSpacingsViewHol
     }
 
     private fun getItem(position: Int): HorizontalSpacings = horizontalSpacings[position]
-
 }

@@ -10,6 +10,7 @@
     <string name="horizontal_spacings">Horizontal Spacings</string>
     <string name="vertical_spacings">Vertical Spacings</string>
     <string name="padding">Padding</string>
+    <string name="paddings">Paddings</string>
 
     <!-- Text Sizes -->
     <string name="google_sizes">Google Sizes</string>
