@@ -46,7 +46,6 @@ class SpacingsShowCasingFragment: BaseFragment() {
     private fun onPageItemClicked(landingPageItem: LandingItem) {
         val homeActivity = baseActivity as HomeActivity
         when (landingPageItem) {
-            SpacingsShowCasingItems.COLLECTION-> { }
             SpacingsShowCasingItems.HORIZONTAL -> {}
             SpacingsShowCasingItems.VERTICAL -> homeActivity.showFragment(VerticalSpacingsFragment.newInstance(), VerticalSpacingsFragment.TAG)
             SpacingsShowCasingItems.PADDING -> {}

@@ -24,7 +24,7 @@
     <dimen name="xxxl_horizontal_spacing">@dimen/sextuple_spacing</dimen>
     <dimen name="xl4_horizontal_spacing">@dimen/septuple_spacing</dimen>
 
-    <!-- Vertical Spacings -->
+    <!-- Linear Vertical Spacings -->
     <dimen name="xxs_vertical_spacing">@dimen/quarter_spacing</dimen>
     <dimen name="xs_vertical_spacing">@dimen/half_spacing</dimen>
     <dimen name="s_vertical_spacing">@dimen/spacing</dimen>
@@ -34,6 +34,14 @@
     <dimen name="xxl_vertical_spacing">@dimen/quintuple_spacing</dimen>
     <dimen name="xxxl_vertical_spacing">@dimen/sextuple_spacing</dimen>
     <dimen name="xl4_vertical_spacing">@dimen/septuple_spacing</dimen>
+
+    <!-- Exponential Vertical Spacings -->
+    <dimen name="xxs_vertical_spacing_exp">@dimen/quarter_spacing</dimen>
+    <dimen name="xs_vertical_spacing_exp">@dimen/half_spacing</dimen>
+    <dimen name="s_vertical_spacing_exp">@dimen/spacing</dimen>
+    <dimen name="m_vertical_spacing_exp">@dimen/double_spacing</dimen>
+    <dimen name="l_vertical_spacing_exp">@dimen/quadruple_spacing</dimen>
+    <dimen name="xl_vertical_spacing_exp">@dimen/octuple_spacing</dimen>
 
     <!-- Padding Spacings -->
     <dimen name="xxs_padding">@dimen/quarter_spacing</dimen>

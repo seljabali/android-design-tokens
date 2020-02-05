@@ -19,4 +19,21 @@
     <string name="horizontal">Horizontal</string>
     <string name="linear">Linear</string>
     <string name="non_linear">Non-Linear</string>
+
+    <!-- T-Shirt Sizes -->
+    <string name="xxs">XXS</string>
+    <string name="xs">XS</string>
+    <string name="s">S</string>
+    <string name="m">M</string>
+    <string name="l">L</string>
+    <string name="xl">XL</string>
+    <string name="xxl">XXL</string>
+    <string name="xxxl">XXXL</string>
+    <string name="xl3">XL3</string>
+    <string name="xl4">XL4</string>
+
+    <string name="dp">DP</string>
+    <string name="px">PX</string>
+
+    <string name="colon_formatted" formatted="true">%s: %s</string>
 </resources>

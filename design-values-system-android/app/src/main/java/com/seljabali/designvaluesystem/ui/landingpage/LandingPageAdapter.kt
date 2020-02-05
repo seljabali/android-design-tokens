@@ -8,6 +8,7 @@ import com.jakewharton.rxbinding3.view.clicks
 import com.seljabali.designvaluesystem.R
 import com.seljabali.designvaluesystem.ui.LandingItem
 import io.reactivex.subjects.PublishSubject
+import java.util.concurrent.TimeUnit.MILLISECONDS
 
 class LandingPageAdapter(private val clickListener: (LandingItem) -> Unit) : BaseAdapter() {
 
@@ -30,7 +31,7 @@ class LandingPageAdapter(private val clickListener: (LandingItem) -> Unit) : Bas
         ) {
             bind(landingPageItemAtPosition)
             itemView.clicks()
-                .throttleFirst(THROTTLE_FIRST_S, java.util.concurrent.TimeUnit.MILLISECONDS)
+                .throttleFirst(THROTTLE_FIRST_S, MILLISECONDS)
                 .map { clickListener.invoke(landingPageItemAtPosition) }
                 .subscribe(itemViewClickSubject)
             return itemView
