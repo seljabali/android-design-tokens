@@ -9,6 +9,7 @@ import com.seljabali.designvaluesystem.ui.BaseFragment
 import com.seljabali.designvaluesystem.ui.HomeActivity
 import com.seljabali.designvaluesystem.ui.LandingItem
 import com.seljabali.designvaluesystem.ui.landingpage.LandingPageAdapter
+import com.seljabali.designvaluesystem.ui.spacings.horizontalspacings.HorizontalSpacingsFragment
 import com.seljabali.designvaluesystem.ui.spacings.verticalspacings.VerticalSpacingsFragment
 import kotlinx.android.synthetic.main.fragment_spacings_showcasing_landing_page.*
 
@@ -46,11 +47,10 @@ class SpacingsShowCasingFragment: BaseFragment() {
     private fun onPageItemClicked(landingPageItem: LandingItem) {
         val homeActivity = baseActivity as HomeActivity
         when (landingPageItem) {
-            SpacingsShowCasingItems.HORIZONTAL -> {}
+            SpacingsShowCasingItems.HORIZONTAL -> homeActivity.showFragment(HorizontalSpacingsFragment.newInstance(), HorizontalSpacingsFragment.TAG)
             SpacingsShowCasingItems.VERTICAL -> homeActivity.showFragment(VerticalSpacingsFragment.newInstance(), VerticalSpacingsFragment.TAG)
             SpacingsShowCasingItems.PADDING -> {}
         }
-//        homeActivity.showFragment(VerticalSpacingsFragment.newInstance(), VerticalSpacingsFragment.TAG)
         return
     }
 

@@ -38,27 +38,27 @@
 
     <View
             android:id="@+id/verticalSpacingTopPadding"
-            android:layout_width="@dimen/m_horizontal_spacing"
-            android:layout_height="@dimen/l_vertical_spacing"
+            android:layout_width="@dimen/vertical_block_width"
+            android:layout_height="@dimen/vertical_block_height"
             android:layout_marginTop="@dimen/l_vertical_spacing"
-            android:background="@color/aqua"
+            android:background="@color/spacings_block_color"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/verticalSpacingPxValueTextView" />
 
     <View
             android:id="@+id/verticalSpacingValue"
-            android:layout_width="@dimen/m_horizontal_spacing"
-            android:layout_height="@dimen/m_vertical_spacing"
+            android:layout_width="@dimen/vertical_block_width"
+            android:layout_height="@dimen/vertical_block_height"
             android:background="@color/white"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/verticalSpacingTopPadding" />
 
     <View
             android:id="@+id/verticalSpacingBottomPadding"
-            android:layout_width="@dimen/m_horizontal_spacing"
-            android:layout_height="@dimen/l_vertical_spacing"
+            android:layout_width="@dimen/vertical_block_width"
+            android:layout_height="@dimen/vertical_block_height"
             android:maxHeight="@dimen/l_vertical_spacing"
-            android:background="@color/aqua"
+            android:background="@color/spacings_block_color"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/verticalSpacingValue"/>
 

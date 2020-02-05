@@ -10,7 +10,7 @@
         android:background="@color/white">
 
     <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/verticalSpacingsRecyclerView"
+            android:id="@+id/horizontalSpacingsRecyclerView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:horizontalSpacing="@dimen/m_horizontal_spacing" />

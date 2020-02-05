@@ -13,7 +13,7 @@
     <dimen name="octuple_spacing">64dp</dimen>
     <dimen name="nonuple_spacing">72dp</dimen>
 
-    <!-- Horizontal Spacings -->
+    <!-- Linear Horizontal Spacings -->
     <dimen name="xxs_horizontal_spacing">@dimen/quarter_spacing</dimen>
     <dimen name="xs_horizontal_spacing">@dimen/half_spacing</dimen>
     <dimen name="s_horizontal_spacing">@dimen/spacing</dimen>
@@ -23,6 +23,14 @@
     <dimen name="xxl_horizontal_spacing">@dimen/quintuple_spacing</dimen>
     <dimen name="xxxl_horizontal_spacing">@dimen/sextuple_spacing</dimen>
     <dimen name="xl4_horizontal_spacing">@dimen/septuple_spacing</dimen>
+
+    <!-- Exponential Horizontal Spacings -->
+    <dimen name="xxs_horizontal_spacing_exp">@dimen/quarter_spacing</dimen>
+    <dimen name="xs_horizontal_spacing_exp">@dimen/half_spacing</dimen>
+    <dimen name="s_horizontal_spacing_exp">@dimen/spacing</dimen>
+    <dimen name="m_horizontal_spacing_exp">@dimen/double_spacing</dimen>
+    <dimen name="l_horizontal_spacing_exp">@dimen/quadruple_spacing</dimen>
+    <dimen name="xl_horizontal_spacing_exp">@dimen/octuple_spacing</dimen>
 
     <!-- Linear Vertical Spacings -->
     <dimen name="xxs_vertical_spacing">@dimen/quarter_spacing</dimen>
