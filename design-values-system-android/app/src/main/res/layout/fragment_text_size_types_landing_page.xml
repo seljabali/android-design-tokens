@@ -10,7 +10,7 @@
         android:background="@color/white">
 
     <GridView
-            android:id="@+id/landingPageGridView"
+            android:id="@+id/textSizeTypesGridView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:paddingTop="@dimen/m_vertical_spacing"
@@ -19,5 +19,6 @@
             android:numColumns="2"
             android:verticalSpacing="@dimen/xxl_vertical_spacing"
             android:stretchMode="columnWidth"
-            android:gravity="center"/>
+            android:gravity="center">
+    </GridView>
 </LinearLayout>

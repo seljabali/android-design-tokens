@@ -11,15 +11,47 @@
     <string name="vertical_spacings">Vertical Spacings</string>
     <string name="padding">Padding</string>
     <string name="paddings">Paddings</string>
-
-    <!-- Text Sizes -->
-    <string name="google_sizes">Google Sizes</string>
-    <string name="custom_sizes">Custom Sizes</string>
-    <string name="collection">Collection</string>
     <string name="vertical">Vertical</string>
     <string name="horizontal">Horizontal</string>
     <string name="linear">Linear</string>
     <string name="non_linear">Non-Linear</string>
+
+    <!-- Text Sizes -->
+    <string name="app_compat">App Compat</string>
+    <string name="app_compat_text_sizes">App Compat Text Sizes</string>
+    <string name="text_sample">The quick brown fox jumps over the lazy dog</string>
+    <string name="custom_sizes">Custom Sizes</string>
+    <string name="text_size">Text Size</string>
+
+
+    <!-- AppCompat Text Appearances -->
+    <string name="body1">Body1</string>
+    <string name="body2">Body2</string>
+    <string name="button">Button</string>
+    <string name="caption">Caption</string>
+    <string name="display1">Display1</string>
+    <string name="display2">Display2</string>
+    <string name="display3">Display3</string>
+    <string name="display4">Display4</string>
+    <string name="headline">Headline</string>
+    <string name="inverse">Inverse</string>
+    <string name="large">Large</string>
+    <string name="large_inverse">Large.Inverse</string>
+    <string name="light_searchresult_subtitle">Light.SearchResult.Subtitle</string>
+    <string name="light_searchresult_title">Light.SearchResult.Title</string>
+    <string name="light_widget_popupMenu_large">Light.Widget.PopupMenu.Large</string>
+    <string name="light_widget_popupMenu_small">Light.Widget.PopupMenu.Small</string>
+    <string name="medium">Medium</string>
+    <string name="medium_inverse">Medium.Inverse</string>
+    <string name="menu">Menu</string>
+    <string name="searchresult_subtitle">SearchResult.Subtitle</string>
+    <string name="searchresult_title">SearchResult.Title</string>
+    <string name="small">Small</string>
+    <string name="small_inverse">Small.Inverse</string>
+    <string name="subhead">Subhead</string>
+    <string name="subhead_inverse">Subhead.Inverse</string>
+    <string name="title">Title</string>
+    <string name="title_inverse">Title.Inverse</string>
 
     <!-- T-Shirt Sizes -->
     <string name="xxs">XXS</string>

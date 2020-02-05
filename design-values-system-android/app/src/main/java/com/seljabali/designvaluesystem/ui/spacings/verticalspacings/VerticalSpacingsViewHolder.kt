@@ -1,12 +1,12 @@
 package com.seljabali.designvaluesystem.ui.spacings.verticalspacings
 
-import android.graphics.Paint.UNDERLINE_TEXT_FLAG
 import android.view.View
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.RecyclerView
 import com.seljabali.designvaluesystem.R
 import com.seljabali.designvaluesystem.utilities.Res
+import com.seljabali.designvaluesystem.utilities.setUnderlined
 
 class VerticalSpacingsViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
@@ -20,7 +20,7 @@ class VerticalSpacingsViewHolder(itemView: View) : RecyclerView.ViewHolder(itemV
     fun bind(verticalSpacing: VerticalSpacings) {
         val context = itemView.context
         verticalSpacingNameTextView.text = Res.getString(context, verticalSpacing.stringId)
-        verticalSpacingNameTextView.paintFlags = verticalSpacingNameTextView.paintFlags or UNDERLINE_TEXT_FLAG
+        verticalSpacingNameTextView.setUnderlined()
 
         verticalSpacingDpValueTextView.text = Res.getStringFormatted(context, R.string.colon_formatted, Res.getString(context, R.string.dp), Res.getDp(context, verticalSpacing.spacingId).toString())
         verticalSpacingPxValueTextView.text = Res.getStringFormatted(context, R.string.colon_formatted, Res.getString(context, R.string.px), Res.getPx(context, verticalSpacing.spacingId).toString())

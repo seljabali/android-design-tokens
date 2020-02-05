@@ -10,7 +10,7 @@ import com.seljabali.designvaluesystem.R
 import com.seljabali.designvaluesystem.ui.BaseFragment
 import kotlinx.android.synthetic.main.fragment_horizontal_spacings.*
 
-class HorizontalSpacingsFragment  : BaseFragment() {
+class HorizontalSpacingsFragment : BaseFragment() {
 
     companion object {
         val TAG: String = HorizontalSpacingsFragment::class.java.simpleName

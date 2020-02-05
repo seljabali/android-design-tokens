@@ -9,6 +9,7 @@ import com.seljabali.designvaluesystem.ui.BaseFragment
 import com.seljabali.designvaluesystem.ui.HomeActivity
 import com.seljabali.designvaluesystem.ui.LandingItem
 import com.seljabali.designvaluesystem.ui.spacings.spacingselector.SpacingsLandingPageFragment
+import com.seljabali.designvaluesystem.ui.textsizes.textsizeselector.TextSizeTypeFragment
 import kotlinx.android.synthetic.main.fragment_landing_page.*
 
 class LandingPageFragment : BaseFragment() {
@@ -48,6 +49,8 @@ class LandingPageFragment : BaseFragment() {
         val homeActivity = baseActivity as HomeActivity
         when (landingPageItem) {
             LandingPageItems.SPACING -> homeActivity.showFragment(SpacingsLandingPageFragment.newInstance(), SpacingsLandingPageFragment.TAG)
+            LandingPageItems.TEXT_SIZES -> homeActivity.showFragment(TextSizeTypeFragment.newInstance(), TextSizeTypeFragment.TAG)
+            LandingPageItems.CORNER_RADIUS -> {}
         }
         return
     }

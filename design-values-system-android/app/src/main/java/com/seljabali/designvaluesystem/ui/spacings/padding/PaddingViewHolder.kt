@@ -1,12 +1,12 @@
 package com.seljabali.designvaluesystem.ui.spacings.padding
 
-import android.graphics.Paint
 import android.view.View
 import android.widget.TextView
 import androidx.core.view.setPadding
 import androidx.recyclerview.widget.RecyclerView
 import com.seljabali.designvaluesystem.R
 import com.seljabali.designvaluesystem.utilities.Res
+import com.seljabali.designvaluesystem.utilities.setUnderlined
 
 class PaddingViewHolder (itemView: View) : RecyclerView.ViewHolder(itemView) {
 
@@ -18,7 +18,7 @@ class PaddingViewHolder (itemView: View) : RecyclerView.ViewHolder(itemView) {
     fun bind(padding: Paddings) {
         val context = itemView.context
         paddingNameTextView.text = Res.getString(context, padding.stringId)
-        paddingNameTextView.paintFlags = paddingNameTextView.paintFlags or Paint.UNDERLINE_TEXT_FLAG
+        paddingNameTextView.setUnderlined()
 
         paddingDpValueTextView.text = Res.getStringFormatted(context, R.string.colon_formatted, Res.getString(context, R.string.dp), Res.getDp(context, padding.spacingId).toString())
         paddingPxValueTextView.text = Res.getStringFormatted(context, R.string.colon_formatted, Res.getString(context, R.string.px), Res.getPx(context, padding.spacingId).toString())
