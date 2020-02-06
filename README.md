@@ -3,23 +3,23 @@
 An app established to help designers & developers collaborate on creating a common language for common design values used in mobile app mockups via visualization. Show cased values include:
 
 ### Vertical Spacings
-![vs](https://github.com/seljabali/android-design-value-system/raw/master/screenshots/vertical_spacings.png)
+<img src="https://github.com/seljabali/android-design-value-system/raw/master/screenshots/vertical_spacings.png" alt="" data-canonical-src="" width="400" height="400" />
 
 ### Horizontal Spacings
-![hs](https://github.com/seljabali/android-design-value-system/raw/master/screenshots/horizontal.png)
+<img src="https://github.com/seljabali/android-design-value-system/raw/master/screenshots/horizontal.png" alt="" data-canonical-src="" width="400" height="400" />
 
 ### Padding
-![padding](https://github.com/seljabali/android-design-value-system/raw/master/screenshots/paddings.png)
+<img src="https://github.com/seljabali/android-design-value-system/raw/master/screenshots/paddings.png" alt="" data-canonical-src="" width="400" height="400" />
 
 ### Text Sizes/Appearances
 - Show cases built in Android Materal text appearances as well as AppCompat values.
-![text](https://github.com/seljabali/android-design-value-system/raw/master/screenshots/text_appearances.png)
+<img src="https://github.com/seljabali/android-design-value-system/raw/master/screenshots/text_appearances.png" alt="" data-canonical-src="" width="400" height="400" />
 
 ### Corner Radiuses
-![cr](https://raw.githubusercontent.com/seljabali/android-design-value-system/master/screenshots/corner_radiuses.png?token=AAJSMCIVZKQNVSVO77X7IOK6ITF3Q)
+<img src="https://raw.githubusercontent.com/seljabali/android-design-value-system/master/screenshots/corner_radiuses.png" alt="" data-canonical-src="" width="400" height="400" />
 
 ### Letter Spacings
-![ls](https://github.com/seljabali/android-design-value-system/raw/master/screenshots/letter_spacings.png)
+<img src="https://github.com/seljabali/android-design-value-system/raw/master/screenshots/letter_spacings.png" alt="" data-canonical-src="" width="400" height="400" />
 
 ## LICENSE
 This is absolutely FREE. Feel free to include and in our own app without credit. If you liked this app however, do give the repo a star please!
