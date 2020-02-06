@@ -18,6 +18,7 @@ Android app that visualizes common design values such as paddings for both desig
 
 - **Simplicity**: The less the design value system has values, the easier it is to work with. That's why it's defaulted in using exponential growth in values for spacings. Nathan Curtis does a great job in this [article](https://medium.com/eightshapes-llc/space-in-design-systems-188bcbae0d62) explaining this. That said, it's entirely up to you to change the values used here.
 
+# Design Values
 ### Vertical Spacings
 <img src="https://github.com/seljabali/android-design-value-system/raw/master/screenshots/vertical_spacings.png" alt="" data-canonical-src="" width="400" height="400" />
 
