@@ -10,5 +10,6 @@ enum class HorizontalSpacings (@DimenRes val spacingId: Int, @StringRes val stri
     S(R.dimen.s_horizontal_spacing_exp, R.string.s),
     M(R.dimen.m_horizontal_spacing_exp, R.string.m),
     L(R.dimen.l_horizontal_spacing_exp, R.string.l),
-    XL(R.dimen.xl_horizontal_spacing_exp, R.string.xl)
+    XL(R.dimen.xl_horizontal_spacing_exp, R.string.xl),
+    XXL(R.dimen.xxl_horizontal_spacing_exp, R.string.xxl)
 }

@@ -10,5 +10,6 @@ enum class Paddings(@DimenRes val spacingId: Int, @StringRes val stringId: Int) 
     S(R.dimen.s_padding_exp, R.string.s),
     M(R.dimen.m_padding_exp, R.string.m),
     L(R.dimen.l_padding_exp, R.string.l),
-    XL(R.dimen.xl_padding_exp, R.string.xl)
+    XL(R.dimen.xl_padding_exp, R.string.xl),
+    XXL(R.dimen.xxl_padding_exp, R.string.xxl)
 }

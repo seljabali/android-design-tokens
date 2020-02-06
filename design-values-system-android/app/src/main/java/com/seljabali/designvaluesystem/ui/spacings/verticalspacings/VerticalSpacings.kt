@@ -24,5 +24,6 @@ enum class VerticalSpacings(@DimenRes val spacingId: Int, @StringRes val stringI
     S(R.dimen.s_vertical_spacing_exp, R.string.s),
     M(R.dimen.m_vertical_spacing_exp, R.string.m),
     L(R.dimen.l_vertical_spacing_exp, R.string.l),
-    XL(R.dimen.xl_vertical_spacing_exp, R.string.xl)
+    XL(R.dimen.xl_vertical_spacing_exp, R.string.xl),
+    XXL(R.dimen.xxl_vertical_spacing_exp, R.string.xxl)
 }

@@ -3,8 +3,8 @@
     <!-- Spacings -->
     <dimen name="quarter_spacing">2dp</dimen>
     <dimen name="half_spacing">4dp</dimen>
-    <dimen name="spacing">8dp</dimen>
-    <dimen name="double_spacing">16dp</dimen>
+    <dimen name="monuple_spacing">8dp</dimen>
+    <dimen name="couple_spacing">16dp</dimen>
     <dimen name="triple_spacing">24dp</dimen>
     <dimen name="quadruple_spacing">32dp</dimen>
     <dimen name="quintuple_spacing">40dp</dimen>
@@ -12,12 +12,19 @@
     <dimen name="septuple_spacing">56dp</dimen>
     <dimen name="octuple_spacing">64dp</dimen>
     <dimen name="nonuple_spacing">72dp</dimen>
+    <dimen name="decuple_spacing">80dp</dimen>
+    <dimen name="undecuple_spacing">88dp</dimen>
+    <dimen name="duodecuple_spacing">96dp</dimen>
+    <dimen name="tredecuple_spacing">104dp</dimen>
+    <dimen name="quattuordecuple_spacing">112dp</dimen>
+    <dimen name="quindecuple_spacing">120dp</dimen>
+    <dimen name="sexdecuple_spacing">128dp</dimen>
 
     <!-- Linear Horizontal Spacings -->
     <dimen name="xxs_horizontal_spacing">@dimen/quarter_spacing</dimen>
     <dimen name="xs_horizontal_spacing">@dimen/half_spacing</dimen>
-    <dimen name="s_horizontal_spacing">@dimen/spacing</dimen>
-    <dimen name="m_horizontal_spacing">@dimen/double_spacing</dimen>
+    <dimen name="s_horizontal_spacing">@dimen/monuple_spacing</dimen>
+    <dimen name="m_horizontal_spacing">@dimen/couple_spacing</dimen>
     <dimen name="l_horizontal_spacing">@dimen/triple_spacing</dimen>
     <dimen name="xl_horizontal_spacing">@dimen/quadruple_spacing</dimen>
     <dimen name="xxl_horizontal_spacing">@dimen/quintuple_spacing</dimen>
@@ -27,16 +34,17 @@
     <!-- Exponential Horizontal Spacings -->
     <dimen name="xxs_horizontal_spacing_exp">@dimen/quarter_spacing</dimen>
     <dimen name="xs_horizontal_spacing_exp">@dimen/half_spacing</dimen>
-    <dimen name="s_horizontal_spacing_exp">@dimen/spacing</dimen>
-    <dimen name="m_horizontal_spacing_exp">@dimen/double_spacing</dimen>
+    <dimen name="s_horizontal_spacing_exp">@dimen/monuple_spacing</dimen>
+    <dimen name="m_horizontal_spacing_exp">@dimen/couple_spacing</dimen>
     <dimen name="l_horizontal_spacing_exp">@dimen/quadruple_spacing</dimen>
     <dimen name="xl_horizontal_spacing_exp">@dimen/octuple_spacing</dimen>
+    <dimen name="xxl_horizontal_spacing_exp">@dimen/sexdecuple_spacing</dimen>
 
     <!-- Linear Vertical Spacings -->
     <dimen name="xxs_vertical_spacing">@dimen/quarter_spacing</dimen>
     <dimen name="xs_vertical_spacing">@dimen/half_spacing</dimen>
-    <dimen name="s_vertical_spacing">@dimen/spacing</dimen>
-    <dimen name="m_vertical_spacing">@dimen/double_spacing</dimen>
+    <dimen name="s_vertical_spacing">@dimen/monuple_spacing</dimen>
+    <dimen name="m_vertical_spacing">@dimen/couple_spacing</dimen>
     <dimen name="l_vertical_spacing">@dimen/triple_spacing</dimen>
     <dimen name="xl_vertical_spacing">@dimen/quadruple_spacing</dimen>
     <dimen name="xxl_vertical_spacing">@dimen/quintuple_spacing</dimen>
@@ -46,16 +54,17 @@
     <!-- Exponential Vertical Spacings -->
     <dimen name="xxs_vertical_spacing_exp">@dimen/quarter_spacing</dimen>
     <dimen name="xs_vertical_spacing_exp">@dimen/half_spacing</dimen>
-    <dimen name="s_vertical_spacing_exp">@dimen/spacing</dimen>
-    <dimen name="m_vertical_spacing_exp">@dimen/double_spacing</dimen>
+    <dimen name="s_vertical_spacing_exp">@dimen/monuple_spacing</dimen>
+    <dimen name="m_vertical_spacing_exp">@dimen/couple_spacing</dimen>
     <dimen name="l_vertical_spacing_exp">@dimen/quadruple_spacing</dimen>
     <dimen name="xl_vertical_spacing_exp">@dimen/octuple_spacing</dimen>
+    <dimen name="xxl_vertical_spacing_exp">@dimen/sexdecuple_spacing</dimen>
 
     <!-- Linear Padding Spacings -->
     <dimen name="xxs_padding">@dimen/quarter_spacing</dimen>
     <dimen name="xs_padding">@dimen/half_spacing</dimen>
-    <dimen name="s_padding">@dimen/spacing</dimen>
-    <dimen name="m_padding">@dimen/double_spacing</dimen>
+    <dimen name="s_padding">@dimen/monuple_spacing</dimen>
+    <dimen name="m_padding">@dimen/couple_spacing</dimen>
     <dimen name="l_padding">@dimen/triple_spacing</dimen>
     <dimen name="xl_padding">@dimen/quadruple_spacing</dimen>
     <dimen name="xxl_padding">@dimen/quintuple_spacing</dimen>
@@ -65,10 +74,11 @@
     <!-- Exponential Padding Spacings -->
     <dimen name="xxs_padding_exp">@dimen/quarter_spacing</dimen>
     <dimen name="xs_padding_exp">@dimen/half_spacing</dimen>
-    <dimen name="s_padding_exp">@dimen/spacing</dimen>
-    <dimen name="m_padding_exp">@dimen/double_spacing</dimen>
+    <dimen name="s_padding_exp">@dimen/monuple_spacing</dimen>
+    <dimen name="m_padding_exp">@dimen/couple_spacing</dimen>
     <dimen name="l_padding_exp">@dimen/quadruple_spacing</dimen>
     <dimen name="xl_padding_exp">@dimen/octuple_spacing</dimen>
+    <dimen name="xxl_padding_exp">@dimen/sexdecuple_spacing</dimen>
 
     <!-- Text Sizes -->
     <dimen name="xxs_text_size">12sp</dimen>
