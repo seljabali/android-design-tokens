@@ -16,7 +16,7 @@ An app established to help designers & developers collaborate on creating a comm
 <img src="https://github.com/seljabali/android-design-value-system/raw/master/screenshots/text_appearances.png" alt="" data-canonical-src="" width="400" height="400" />
 
 ### Corner Radiuses
-<img src="https://raw.githubusercontent.com/seljabali/android-design-value-system/master/screenshots/corner_radiuses.png" alt="" data-canonical-src="" width="400" height="400" />
+<img src="https://github.com/seljabali/android-design-value-system/raw/master/screenshots/corner_radiuses.png" alt="" data-canonical-src="" width="400" height="400" />
 
 ### Letter Spacings
 <img src="https://github.com/seljabali/android-design-value-system/raw/master/screenshots/letter_spacings.png" alt="" data-canonical-src="" width="400" height="400" />
