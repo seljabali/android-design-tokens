@@ -7,7 +7,7 @@ import com.seljabali.designvaluesystem.R
 
 class PaddingsAdapter : RecyclerView.Adapter<PaddingViewHolder>() {
 
-    private var Paddings: Array<Paddings> = emptyArray()
+    private var paddings: Array<Paddings> = emptyArray()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PaddingViewHolder =
         PaddingViewHolder(
@@ -15,7 +15,7 @@ class PaddingsAdapter : RecyclerView.Adapter<PaddingViewHolder>() {
                 R.layout.item_padding, parent, false
             ))
 
-    override fun getItemCount(): Int =  Paddings.size
+    override fun getItemCount(): Int = paddings.size
 
     override fun onBindViewHolder(holder: PaddingViewHolder, position: Int) {
         val verticalSpacingAtPosition = getItem(position)
@@ -25,10 +25,10 @@ class PaddingsAdapter : RecyclerView.Adapter<PaddingViewHolder>() {
     override fun getItemId(position: Int): Long = position.toLong()
 
     fun setPaddings(values: Array<Paddings>) {
-        Paddings = values
+        paddings = values
         notifyDataSetChanged()
     }
 
-    private fun getItem(position: Int): Paddings = Paddings[position]
+    private fun getItem(position: Int): Paddings = paddings[position]
 
 }

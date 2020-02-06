@@ -17,8 +17,6 @@ class VerticalSpacingsFragment : BaseFragment() {
         fun newInstance() = VerticalSpacingsFragment()
     }
 
-    lateinit var verticalSpacingsAdapter: VerticalSpacingsAdapter
-
     override fun getToolbarTitle(): String = getString(R.string.vertical_spacings)
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? = inflater.inflate(
@@ -26,12 +24,12 @@ class VerticalSpacingsFragment : BaseFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        verticalSpacingsAdapter = VerticalSpacingsAdapter()
-        verticalSpacingsAdapter.setVerticalSpacings(VerticalSpacings.values())
         verticalSpacingsRecyclerView.apply {
             layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
             addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.HORIZONTAL))
-            adapter = verticalSpacingsAdapter
+            adapter = VerticalSpacingsAdapter().apply {
+                setVerticalSpacings(VerticalSpacings.values())
+            }
         }
     }
 

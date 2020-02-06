@@ -17,22 +17,24 @@ class ElevationsFragment : BaseFragment() {
         fun newInstance() = ElevationsFragment()
     }
 
-    lateinit var elevationsAdapter: ElevationsAdapter
-
     override fun getToolbarTitle(): String = getString(R.string.elevations)
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? = inflater.inflate(
-        R.layout.fragment_elevations, container, false)
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? = inflater.inflate(
+        R.layout.fragment_elevations, container, false
+    )
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        elevationsAdapter = ElevationsAdapter()
-        elevationsAdapter.setElevations(Elevations.values())
         elevationsRecyclerView.apply {
             layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
             addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.VERTICAL))
-            adapter = elevationsAdapter
+            adapter = ElevationsAdapter().apply {
+                setElevations(Elevations.values())
+            }
         }
     }
-
 }

@@ -17,22 +17,24 @@ class LetterSpacingsFragment : BaseFragment() {
         fun newInstance() = LetterSpacingsFragment()
     }
 
-    lateinit var letterSpacingsAdapter: LetterSpacingsAdapter
-
     override fun getToolbarTitle(): String = getString(R.string.letter_spacings)
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? = inflater.inflate(
-        R.layout.fragment_letter_spacings, container, false)
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? = inflater.inflate(
+        R.layout.fragment_letter_spacings, container, false
+    )
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        letterSpacingsAdapter = LetterSpacingsAdapter()
-        letterSpacingsAdapter.setLetterSpacings(LetterSpacings.values())
         letterSpacingsRecyclerView.apply {
             layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
             addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.VERTICAL))
-            adapter = letterSpacingsAdapter
+            adapter = LetterSpacingsAdapter().apply {
+                setLetterSpacings(LetterSpacings.values())
+            }
         }
     }
-
 }

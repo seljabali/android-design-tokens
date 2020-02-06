@@ -19,21 +19,23 @@ class MaterialTextAppearancesFragment : BaseFragment() {
         fun newInstance() = MaterialTextAppearancesFragment()
     }
 
-    lateinit var textStylesAdapter: TextStylesAdapter
-
     override fun getToolbarTitle(): String = getString(R.string.material_text_appearances)
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? =
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? =
         inflater.inflate(R.layout.fragment_text_appearances, container, false)
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        textStylesAdapter = TextStylesAdapter()
-        textStylesAdapter.setTextStyles(MaterialTextAppearances.values() as Array<TextStyles>)
         textSizesRecyclerView.apply {
             layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
             addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.VERTICAL))
-            adapter = textStylesAdapter
+            adapter = TextStylesAdapter().apply {
+                setTextStyles(MaterialTextAppearances.values() as Array<TextStyles>)
+            }
         }
     }
 

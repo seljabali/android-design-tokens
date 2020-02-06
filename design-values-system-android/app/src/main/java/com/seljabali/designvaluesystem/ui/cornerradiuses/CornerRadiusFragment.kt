@@ -17,22 +17,24 @@ class CornerRadiusFragment : BaseFragment() {
         fun newInstance() = CornerRadiusFragment()
     }
 
-    lateinit var cornerRadiusAdapter: CornerRadiusAdapter
-
     override fun getToolbarTitle(): String = getString(R.string.corner_radiuses)
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? = inflater.inflate(
-        R.layout.fragment_corner_radiuses, container, false)
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? = inflater.inflate(
+        R.layout.fragment_corner_radiuses, container, false
+    )
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        cornerRadiusAdapter = CornerRadiusAdapter()
-        cornerRadiusAdapter.setCornerRadiuses(CornerRadiuses.values())
         cornerRadiusesRecyclerView.apply {
             layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
             addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.VERTICAL))
-            adapter = cornerRadiusAdapter
+            adapter = CornerRadiusAdapter().apply {
+                setCornerRadiuses(CornerRadiuses.values())
+            }
         }
     }
-
 }

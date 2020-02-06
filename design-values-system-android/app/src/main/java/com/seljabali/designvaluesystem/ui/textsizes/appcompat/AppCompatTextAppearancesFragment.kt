@@ -19,8 +19,6 @@ class AppCompatTextAppearancesFragment : BaseFragment() {
         fun newInstance() = AppCompatTextAppearancesFragment()
     }
 
-    lateinit var textStylesAdapter: TextStylesAdapter
-
     override fun getToolbarTitle(): String = getString(R.string.app_compat_text_appearances)
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? =
@@ -28,12 +26,12 @@ class AppCompatTextAppearancesFragment : BaseFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        textStylesAdapter = TextStylesAdapter()
-        textStylesAdapter.setTextStyles(AppCompatTextAppearances.values() as Array<TextStyles>)
         textSizesRecyclerView.apply {
             layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
             addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.VERTICAL))
-            adapter = textStylesAdapter
+            adapter = TextStylesAdapter().apply {
+                setTextStyles(AppCompatTextAppearances.values() as Array<TextStyles>)
+            }
         }
     }
 

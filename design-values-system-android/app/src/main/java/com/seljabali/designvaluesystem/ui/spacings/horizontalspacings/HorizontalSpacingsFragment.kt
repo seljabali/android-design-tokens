@@ -17,21 +17,24 @@ class HorizontalSpacingsFragment : BaseFragment() {
         fun newInstance() = HorizontalSpacingsFragment()
     }
 
-    lateinit var horizontalSpacingsAdapter: HorizontalSpacingsAdapter
-
     override fun getToolbarTitle(): String = getString(R.string.horizontal_spacings)
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? = inflater.inflate(
-        R.layout.fragment_horizontal_spacings, container, false)
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? = inflater.inflate(
+        R.layout.fragment_horizontal_spacings, container, false
+    )
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        horizontalSpacingsAdapter = HorizontalSpacingsAdapter()
-        horizontalSpacingsAdapter.setVerticalSpacings(HorizontalSpacings.values())
         horizontalSpacingsRecyclerView.apply {
             layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
             addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.VERTICAL))
-            adapter = horizontalSpacingsAdapter
+            adapter = HorizontalSpacingsAdapter().apply {
+                setVerticalSpacings(HorizontalSpacings.values())
+            }
         }
     }
 

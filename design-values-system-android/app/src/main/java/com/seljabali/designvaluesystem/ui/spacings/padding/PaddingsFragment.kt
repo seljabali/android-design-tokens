@@ -17,21 +17,24 @@ class PaddingsFragment : BaseFragment() {
         fun newInstance() = PaddingsFragment()
     }
 
-    private lateinit var paddingsAdapter: PaddingsAdapter
-
     override fun getToolbarTitle(): String = getString(R.string.paddings)
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? = inflater.inflate(
-        R.layout.fragment_paddings, container, false)
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? = inflater.inflate(
+        R.layout.fragment_paddings, container, false
+    )
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        paddingsAdapter = PaddingsAdapter()
-        paddingsAdapter.setPaddings(Paddings.values())
         paddingsRecyclerView.apply {
             layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
             addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.VERTICAL))
-            adapter = paddingsAdapter
+            adapter = PaddingsAdapter().apply {
+                setPaddings(Paddings.values())
+            }
         }
     }
 
