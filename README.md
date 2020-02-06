@@ -4,6 +4,20 @@ Android app that visualizes common design values such as paddings for both desig
 
 <img src="https://github.com/seljabali/android-design-value-system/raw/master/screenshots/home.png" alt="" data-canonical-src="" width="400" height="600" />
 
+### Rationale
+- **Standardization**: The absolute worst thing one could do is hard code values across their codebase, as it allows for inconsisent experience across the app.
+```xml
+<GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="5dp"
+```
+- **Flexibility**: You're now referencing from set spacing values. Imagine phone became a lot taller than phones today. Your design team now wants more vertical spacing across the board. This design value system accomodates for such by separating vertical & horizontal paddings allowing that change done easily.
+
+- **Collaboration**: Many times design will find mockup mismatches with actual result. It can be extremely difficult finding where the delta in pixels came from. This app can clearly displays values, and may reveal how they differ from phone to phone, thereby reducing missed expectations.
+
+- **Simplicity**: The less the design value system has values, the easier it is to work with. That's why it's defaulted in using exponential growth in values for spacings. Nathan Curtis does a great job in this [article](https://medium.com/eightshapes-llc/space-in-design-systems-188bcbae0d62) explaining this. That said, it's entirely up to you to change the values used here.
+
 ### Vertical Spacings
 <img src="https://github.com/seljabali/android-design-value-system/raw/master/screenshots/vertical_spacings.png" alt="" data-canonical-src="" width="400" height="400" />
 
