@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Spacings -->
+    <!-- Names: https://en.wikipedia.org/wiki/Tuple#Names_for_tuples_of_specific_lengths-->
     <dimen name="quarter_spacing">2dp</dimen>
     <dimen name="half_spacing">4dp</dimen>
     <dimen name="monuple_spacing">8dp</dimen>
@@ -103,5 +104,11 @@
     <dimen name="l_elevation">12dp</dimen>
 
     <!-- Letter Spacings -->
-    <dimen format="float" name="m_letter_spacing">0.15</dimen>
+    <dimen format="float" name="xxs_letter_spacing">-0.12</dimen>
+    <dimen format="float" name="xs_letter_spacing">-0.09</dimen>
+    <dimen format="float" name="s_letter_spacing">-0.05</dimen>
+    <dimen format="float" name="m_letter_spacing">0</dimen>
+    <dimen format="float" name="l_letter_spacing">0.15</dimen>
+    <dimen format="float" name="xl_letter_spacing">0.2</dimen>
+    <dimen format="float" name="xxl_letter_spacing">0.3</dimen>
 </resources>

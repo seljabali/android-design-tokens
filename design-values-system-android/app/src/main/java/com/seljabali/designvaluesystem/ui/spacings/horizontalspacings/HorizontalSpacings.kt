@@ -4,7 +4,7 @@ import androidx.annotation.DimenRes
 import androidx.annotation.StringRes
 import com.seljabali.designvaluesystem.R
 
-enum class HorizontalSpacings (@DimenRes val spacingId: Int, @StringRes val stringId: Int) {
+enum class HorizontalSpacings(@DimenRes val spacingId: Int, @StringRes val stringId: Int) {
     XXS(R.dimen.xxs_horizontal_spacing_exp, R.string.xxs),
     XS(R.dimen.xs_horizontal_spacing_exp, R.string.xs),
     S(R.dimen.s_horizontal_spacing_exp, R.string.s),
