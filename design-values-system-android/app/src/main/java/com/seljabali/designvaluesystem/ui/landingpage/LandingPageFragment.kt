@@ -8,6 +8,7 @@ import com.seljabali.designvaluesystem.R
 import com.seljabali.designvaluesystem.ui.BaseFragment
 import com.seljabali.designvaluesystem.ui.HomeActivity
 import com.seljabali.designvaluesystem.ui.LandingItem
+import com.seljabali.designvaluesystem.ui.cornerradiuses.CornerRadiusFragment
 import com.seljabali.designvaluesystem.ui.spacings.showcasing.SpacingsShowCasingFragment
 import com.seljabali.designvaluesystem.ui.textsizes.textsizeselector.TextSizeTypeFragment
 import kotlinx.android.synthetic.main.fragment_landing_page.*
@@ -50,7 +51,7 @@ class LandingPageFragment : BaseFragment() {
         when (landingPageItem) {
             LandingPageItems.SPACING -> homeActivity.showFragment(SpacingsShowCasingFragment.newInstance(), SpacingsShowCasingFragment.TAG)
             LandingPageItems.TEXT_SIZES -> homeActivity.showFragment(TextSizeTypeFragment.newInstance(), TextSizeTypeFragment.TAG)
-            LandingPageItems.CORNER_RADIUS -> {}
+            LandingPageItems.CORNER_RADIUS -> homeActivity.showFragment(CornerRadiusFragment.newInstance(), CornerRadiusFragment.TAG)
         }
         return
     }

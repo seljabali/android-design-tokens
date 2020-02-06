@@ -1,13 +1,15 @@
 package com.seljabali.designvaluesystem.ui
 
 import android.os.Bundle
+import androidx.appcompat.widget.Toolbar
+import androidx.fragment.app.Fragment
 import com.google.android.material.appbar.AppBarLayout
 import com.seljabali.designvaluesystem.R
 import com.seljabali.designvaluesystem.ui.landingpage.LandingPageFragment
 
 class HomeActivity : BaseActivity() {
 
-    private lateinit var toolbar: androidx.appcompat.widget.Toolbar
+    private lateinit var toolbar: Toolbar
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,7 +34,7 @@ class HomeActivity : BaseActivity() {
         return true
     }
 
-    fun showFragment(baseFragment: androidx.fragment.app.Fragment, tag: String) {
+    fun showFragment(baseFragment: Fragment, tag: String) {
         supportFragmentManager.beginTransaction()
             .setCustomAnimations(
                 R.anim.enter_from_right,
