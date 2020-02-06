@@ -12,7 +12,7 @@ Android app that visualizes common design values such as paddings for both desig
         android:layout_height="match_parent"
         android:paddingTop="5dp"
 ```
-- **Flexibility**: You're now referencing from set spacing values. Imagine phone became a lot taller than phones today. Your design team now wants more vertical spacing across the board. This design value system accomodates for such by separating vertical & horizontal paddings allowing that ask be done easily.
+- **Flexibility**: You're now referencing from set spacing values. Imagine phones became a lot taller than phones today. Your design team now wants more vertical spacing across the board. This design value system accomodates for such by separating vertical & horizontal paddings allowing that ask be done easily.
 
 - **Collaboration**: Many times design will find mockup mismatches with actual result. It can be extremely difficult finding where the delta in pixels came from. This app clearly displays actual pixel values used, revealing how they differ from phone to phone, thereby aligning expectations.
 
