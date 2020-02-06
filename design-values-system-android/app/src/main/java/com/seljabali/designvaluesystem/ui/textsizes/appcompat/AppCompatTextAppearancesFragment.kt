@@ -10,21 +10,21 @@ import com.seljabali.designvaluesystem.R
 import com.seljabali.designvaluesystem.ui.BaseFragment
 import com.seljabali.designvaluesystem.ui.textsizes.TextStyles
 import com.seljabali.designvaluesystem.ui.textsizes.TextStylesAdapter
-import kotlinx.android.synthetic.main.fragment_app_compat_text_sizes.*
+import kotlinx.android.synthetic.main.fragment_text_appearances.*
 
-class AppCompatTextSizesFragment : BaseFragment() {
+class AppCompatTextAppearancesFragment : BaseFragment() {
 
     companion object {
-        val TAG: String = AppCompatTextSizesFragment::class.java.simpleName
-        fun newInstance() = AppCompatTextSizesFragment()
+        val TAG: String = AppCompatTextAppearancesFragment::class.java.simpleName
+        fun newInstance() = AppCompatTextAppearancesFragment()
     }
 
     lateinit var textStylesAdapter: TextStylesAdapter
 
-    override fun getToolbarTitle(): String = getString(R.string.app_compat_text_sizes)
+    override fun getToolbarTitle(): String = getString(R.string.app_compat_text_appearances)
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? =
-        inflater.inflate(R.layout.fragment_app_compat_text_sizes, container, false)
+        inflater.inflate(R.layout.fragment_text_appearances, container, false)
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

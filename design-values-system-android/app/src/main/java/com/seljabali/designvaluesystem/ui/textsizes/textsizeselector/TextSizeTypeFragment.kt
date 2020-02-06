@@ -8,10 +8,8 @@ import com.seljabali.designvaluesystem.R
 import com.seljabali.designvaluesystem.ui.BaseFragment
 import com.seljabali.designvaluesystem.ui.HomeActivity
 import com.seljabali.designvaluesystem.ui.LandingItem
-import com.seljabali.designvaluesystem.ui.spacings.showcasing.SpacingsShowCasingFragment
-import com.seljabali.designvaluesystem.ui.spacings.spacingselector.SpacingsLandingItem
-import com.seljabali.designvaluesystem.ui.spacings.spacingselector.SpacingsLandingPageAdapter
-import com.seljabali.designvaluesystem.ui.textsizes.appcompat.AppCompatTextSizesFragment
+import com.seljabali.designvaluesystem.ui.textsizes.appcompat.AppCompatTextAppearancesFragment
+import com.seljabali.designvaluesystem.ui.textsizes.material.MaterialTextAppearancesFragment
 import kotlinx.android.synthetic.main.fragment_text_size_types_landing_page.*
 
 class TextSizeTypeFragment : BaseFragment() {
@@ -48,8 +46,9 @@ class TextSizeTypeFragment : BaseFragment() {
     private fun onPageItemClicked(landingPageItem: LandingItem) {
         val homeActivity = baseActivity as HomeActivity
         when (landingPageItem) {
-            TextSizeTypeLandingItem.APP_COMPAT -> homeActivity.showFragment(AppCompatTextSizesFragment.newInstance(), AppCompatTextSizesFragment.TAG)
-            TextSizeTypeLandingItem.CUSTOM -> { }
+            TextSizeTypeLandingItem.APP_COMPAT -> homeActivity.showFragment(AppCompatTextAppearancesFragment.newInstance(), AppCompatTextAppearancesFragment.TAG)
+            TextSizeTypeLandingItem.MATERIAL -> homeActivity.showFragment(MaterialTextAppearancesFragment.newInstance(), MaterialTextAppearancesFragment.TAG)
+//            TextSizeTypeLandingItem.CUSTOM -> { }
         }
         return
     }

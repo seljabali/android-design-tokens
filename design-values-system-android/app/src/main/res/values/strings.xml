@@ -18,11 +18,12 @@
 
     <!-- Text Sizes -->
     <string name="app_compat">App Compat</string>
-    <string name="app_compat_text_sizes">App Compat Text Sizes</string>
+    <string name="material">Material</string>
+    <string name="app_compat_text_appearances">App Compat Text Appearances</string>
+    <string name="material_text_appearances">Material Text Appearances</string>
     <string name="text_sample">The quick brown fox jumps over the lazy dog</string>
     <string name="custom_sizes">Custom Sizes</string>
     <string name="text_size">Text Size</string>
-
 
     <!-- AppCompat Text Appearances -->
     <string name="body1">Body1</string>
@@ -52,6 +53,41 @@
     <string name="subhead_inverse">Subhead.Inverse</string>
     <string name="title">Title</string>
     <string name="title_inverse">Title.Inverse</string>
+
+    <!-- Material Text Appearances -->
+    <string name="dialog_window_title">Dialog Window Title</string>
+    <string name="notification">Notification</string>
+    <string name="notification_emphasis">Notification Emphasis</string>
+    <string name="notification_info">Notification Info</string>
+    <string name="notification_line2">Notification Line2</string>
+    <string name="notification_time">Notification Time</string>
+    <string name="notification_title">Notification Title</string>
+    <string name="search_result_subtitle">Search Result Subtitle</string>
+    <string name="search_result_title">Search Result Title</string>
+    <string name="widget">Widget</string>
+    <string name="widget_actionbar_menu">Widget ActionBar Menu</string>
+    <string name="widget_actionbar_subtitle">Widget ActionBar Subtitle</string>
+    <string name="widget_actionbar_subtitle_inverse">Widget ActionBar Subtitle Inverse</string>
+    <string name="widget_actionbar_title">Widget ActionBar Title</string>
+    <string name="widget_actionbar_title_inverse">Widget ActionBar Title Inverse</string>
+    <string name="widget_button">Widget Button</string>
+    <string name="widget_borderless_colored">Widget Borderless Colored</string>
+    <string name="widget_button_colored">Widget Button Colored</string>
+    <string name="widget_button_inverse">Widget Button Inverse</string>
+    <string name="widget_dropdown_hint">Widget DropDown Hint</string>
+    <string name="widget_dropdown_item">Widget DropDown Item</string>
+    <string name="widget_edittext">Widget EditText</string>
+    <string name="widget_iconmenu_item">Widget IconMenu Item</string>
+    <string name="widget_popupmenu">Widget PopupMenu</string>
+    <string name="widget_popupmenu_large">Widget PopupMenu Large</string>
+    <string name="widget_popupmenu_small">Widget PopupMenu Small</string>
+    <string name="widget_tabwidget">Widget TabWidget</string>
+    <string name="widget_textview">Widget TextView</string>
+    <string name="widget_textView_popupmenu">Widget TextView PopupMenu</string>
+    <string name="widget_textView_spinnerItem">Widget TextView SpinnerItem</string>
+    <string name="widget_toolbar_subtitle">Widget Toolbar Subtitle</string>
+    <string name="widget_toolbar_title">Widget Toolbar Title</string>
+    <string name="windowtitle">Window Title</string>
 
     <!-- T-Shirt Sizes -->
     <string name="xxs">XXS</string>
