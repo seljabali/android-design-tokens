@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.seljabali.designvaluesystem.R
 
-class CornerRadiusAdapter  : RecyclerView.Adapter<CornerRadiusViewHolder>() {
+class CornerRadiusAdapter : RecyclerView.Adapter<CornerRadiusViewHolder>() {
 
     private var cornerRadiusess: Array<CornerRadiuses> = emptyArray()
 
