@@ -1,6 +1,6 @@
 # Android Design Value System
 
-An app established to help designers & developers collaborate on creating a common language for common design values used in mobile app mockups via visualization. Show cased values include:
+Established to help designers & developers collaborate on creating a common language for common design values used in mockups. Show cased values include:
 
 ### Vertical Spacings
 <img src="https://github.com/seljabali/android-design-value-system/raw/master/screenshots/vertical_spacings.png" alt="" data-canonical-src="" width="400" height="400" />
