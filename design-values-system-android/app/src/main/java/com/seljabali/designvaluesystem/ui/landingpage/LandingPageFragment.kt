@@ -8,6 +8,7 @@ import com.seljabali.designvaluesystem.R
 import com.seljabali.designvaluesystem.ui.BaseFragment
 import com.seljabali.designvaluesystem.ui.HomeActivity
 import com.seljabali.designvaluesystem.ui.LandingItem
+import com.seljabali.designvaluesystem.ui.colors.ColorsFragment
 import com.seljabali.designvaluesystem.ui.cornerradiuses.CornerRadiusFragment
 import com.seljabali.designvaluesystem.ui.elevations.ElevationsFragment
 import com.seljabali.designvaluesystem.ui.letterspacings.LetterSpacingsFragment
@@ -56,6 +57,7 @@ class LandingPageFragment : BaseFragment() {
             LandingPageItems.CORNER_RADIUS -> homeActivity.showFragment(CornerRadiusFragment.newInstance(), CornerRadiusFragment.TAG)
             LandingPageItems.ELEVATIONS -> homeActivity.showFragment(ElevationsFragment.newInstance(), ElevationsFragment.TAG)
             LandingPageItems.LETTER_SPACINGS -> homeActivity.showFragment(LetterSpacingsFragment.newInstance(), LetterSpacingsFragment.TAG)
+            LandingPageItems.COLORS-> homeActivity.showFragment(ColorsFragment.newInstance(), ColorsFragment.TAG)
         }
         return
     }

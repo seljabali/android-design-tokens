@@ -5,6 +5,7 @@
     <dimen name="landingPageIconSize">55dp</dimen>
     <dimen name="landing_page_item_width">120dp</dimen>
     <dimen name="landing_page_item_height">120dp</dimen>
+    <dimen name="color_item_height">120dp</dimen>
 
     <!-- Horizontal Spacings -->
     <dimen name="horizontal_block_width">60dp</dimen>
