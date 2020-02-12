@@ -1,6 +1,6 @@
 # Android Design Value System
 
-Android app that visualizes common design values such as paddings for both designers & developers.
+Android app that visualizes common design values for both designers & developers.
 
 <img src="https://github.com/seljabali/android-design-value-system/raw/master/screenshots/home.png" alt="" data-canonical-src="" width="400" height="600" />
 
