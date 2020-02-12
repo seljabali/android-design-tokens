@@ -26,7 +26,6 @@ class LandingPageFragment : BaseFragment() {
 
     lateinit var adapter: LandingPageAdapter
 
-
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? = inflater.inflate(
         R.layout.fragment_landing_page, container, false)
 
