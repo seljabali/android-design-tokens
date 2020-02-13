@@ -41,11 +41,12 @@
             android:id="@+id/paddingValueTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/m_vertical_spacing"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:padding="@dimen/m_padding_exp"
             android:background="@color/spacings_block_color"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/paddingNameTextView"
+            app:layout_constraintTop_toBottomOf="@id/paddingPxValueTextView"
             android:text="Foo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
