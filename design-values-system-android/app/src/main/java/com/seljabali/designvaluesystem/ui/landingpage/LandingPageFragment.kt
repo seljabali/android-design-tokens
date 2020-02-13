@@ -14,6 +14,7 @@ import com.seljabali.designvaluesystem.ui.elevations.ElevationsFragment
 import com.seljabali.designvaluesystem.ui.letterspacings.LetterSpacingsFragment
 import com.seljabali.designvaluesystem.ui.spacings.showcasing.SpacingsShowCasingFragment
 import com.seljabali.designvaluesystem.ui.textsizes.textsizeselector.TextSizeTypeFragment
+import com.seljabali.designvaluesystem.ui.transparency.TransparencyFragment
 import kotlinx.android.synthetic.main.fragment_landing_page.*
 
 class LandingPageFragment : BaseFragment() {
@@ -56,7 +57,8 @@ class LandingPageFragment : BaseFragment() {
             LandingPageItems.CORNER_RADIUS -> homeActivity.showFragment(CornerRadiusFragment.newInstance(), CornerRadiusFragment.TAG)
             LandingPageItems.ELEVATIONS -> homeActivity.showFragment(ElevationsFragment.newInstance(), ElevationsFragment.TAG)
             LandingPageItems.LETTER_SPACINGS -> homeActivity.showFragment(LetterSpacingsFragment.newInstance(), LetterSpacingsFragment.TAG)
-            LandingPageItems.COLORS-> homeActivity.showFragment(ColorsFragment.newInstance(), ColorsFragment.TAG)
+            LandingPageItems.COLORS -> homeActivity.showFragment(ColorsFragment.newInstance(), ColorsFragment.TAG)
+            LandingPageItems.TRANSPARENCIES -> homeActivity.showFragment(TransparencyFragment.newInstance(), TransparencyFragment.TAG)
         }
         return
     }

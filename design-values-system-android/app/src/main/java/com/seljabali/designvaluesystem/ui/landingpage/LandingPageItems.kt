@@ -14,4 +14,5 @@ enum class LandingPageItems(@StringRes override val titleStringId: Int,
     ELEVATIONS(R.string.elevations, android.R.color.transparent),
     LETTER_SPACINGS(R.string.letter_spacings, R.mipmap.letter_spacing),
     COLORS(R.string.colors, R.mipmap.colors),
+    TRANSPARENCIES(R.string.transparencies, android.R.color.transparent),
 }

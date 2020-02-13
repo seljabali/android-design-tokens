@@ -8,6 +8,7 @@
     <string name="elevations">Elevations</string>
     <string name="letter_spacings">Letter Spacings</string>
     <string name="colors">Colors</string>
+    <string name="transparencies">Transparencies</string>
 
     <!-- Spacing -->
     <string name="horizontal_spacings">Horizontal Spacings</string>

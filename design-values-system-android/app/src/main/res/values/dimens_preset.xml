@@ -111,4 +111,11 @@
     <dimen format="float" name="l_letter_spacing">0.15</dimen>
     <dimen format="float" name="xl_letter_spacing">0.2</dimen>
     <dimen format="float" name="xxl_letter_spacing">0.3</dimen>
+
+    <!-- Transparency -->
+    <dimen format="float" name="xxs_transparency">0.90</dimen>
+    <dimen format="float" name="xs_transparency">0.75</dimen>
+    <dimen format="float" name="s_transparency">0.50</dimen>
+    <dimen format="float" name="m_transparency">0.25</dimen>
+    <dimen format="float" name="l_transparency">0.10</dimen>
 </resources>
