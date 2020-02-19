@@ -118,4 +118,6 @@
     <dimen format="float" name="s_transparency">0.50</dimen>
     <dimen format="float" name="m_transparency">0.25</dimen>
     <dimen format="float" name="l_transparency">0.10</dimen>
+    <dimen format="float" name="xl_transparency">0.05</dimen>
+    <dimen format="float" name="xxl_transparency">0.03</dimen>
 </resources>

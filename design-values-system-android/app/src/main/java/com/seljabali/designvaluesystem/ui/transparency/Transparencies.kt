@@ -10,4 +10,6 @@ enum class Transparencies(@DimenRes val transparencyId: Int, @StringRes val stri
     S(R.dimen.s_transparency, R.string.s),
     M(R.dimen.m_transparency, R.string.m),
     L(R.dimen.l_transparency, R.string.l),
+    XL(R.dimen.xl_transparency, R.string.xl),
+    XXL(R.dimen.xxl_transparency, R.string.xxl),
 }
