@@ -42,5 +42,8 @@ Android app that visualizes common design values for both designers & developers
 ### Colors
 <img src="https://github.com/seljabali/android-design-value-system/raw/master/screenshots/colors.png" alt="" data-canonical-src="" width="500" height="400" />
 
+### Transparencies
+<img src="https://github.com/seljabali/android-design-value-system/raw/master/screenshots/transparencies.png" alt="" data-canonical-src="" width="500" height="400" />
+
 ## LICENSE
 This is absolutely FREE. Feel free to include and in our own app without credit. If you liked this app however, do give the repo a star please!
