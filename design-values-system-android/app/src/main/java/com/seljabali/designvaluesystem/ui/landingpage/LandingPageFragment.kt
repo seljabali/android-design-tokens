@@ -55,7 +55,7 @@ class LandingPageFragment : BaseFragment() {
             LandingPageItems.SPACING -> homeActivity.showFragment(SpacingsShowCasingFragment.newInstance(), SpacingsShowCasingFragment.TAG)
             LandingPageItems.TEXT_SIZES -> homeActivity.showFragment(TextSizeTypeFragment.newInstance(), TextSizeTypeFragment.TAG)
             LandingPageItems.CORNER_RADIUS -> homeActivity.showFragment(CornerRadiusFragment.newInstance(), CornerRadiusFragment.TAG)
-            LandingPageItems.ELEVATIONS -> homeActivity.showFragment(ElevationsFragment.newInstance(), ElevationsFragment.TAG)
+//            LandingPageItems.ELEVATIONS -> homeActivity.showFragment(ElevationsFragment.newInstance(), ElevationsFragment.TAG)
             LandingPageItems.LETTER_SPACINGS -> homeActivity.showFragment(LetterSpacingsFragment.newInstance(), LetterSpacingsFragment.TAG)
             LandingPageItems.COLORS -> homeActivity.showFragment(ColorsFragment.newInstance(), ColorsFragment.TAG)
             LandingPageItems.TRANSPARENCIES -> homeActivity.showFragment(TransparencyFragment.newInstance(), TransparencyFragment.TAG)
