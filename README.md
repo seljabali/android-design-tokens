@@ -2,7 +2,7 @@
 
 Android app that visualizes design tokens for both designers & developers.
 
-<img src="https://github.com/seljabali/android-design-tokens/raw/master/screenshots/home.png" alt="" data-canonical-src="" width="500" height="600" />
+<img src="https://github.com/seljabali/android-design-tokens/raw/master/screenshots/home.png" alt="" data-canonical-src="" width="500" height="800" />
 
 ### Rationale
 - **Standardization**: The absolute worst thing one could do is hard code values across their codebase, as it allows for inconsisent experience across the app.
@@ -20,10 +20,10 @@ Android app that visualizes design tokens for both designers & developers.
 
 # Design Tokens
 ### Vertical Spacings
-<img src="https://github.com/seljabali/android-design-tokens/raw/master/screenshots/vertical_spacings.png" alt="" data-canonical-src="" width="500" height="400" />
+<img src="https://github.com/seljabali/android-design-tokens/raw/master/screenshots/vertical_spacings.png" alt="" data-canonical-src="" width="500" height="800" />
 
 ### Horizontal Spacings
-<img src="https://github.com/seljabali/android-design-value-system/raw/master/screenshots/horizontal.png" alt="" data-canonical-src="" width="500" height="600" />
+<img src="https://github.com/seljabali/android-design-value-system/raw/master/screenshots/horizontal.png" alt="" data-canonical-src="" width="500" height="800" />
 
 ### Padding
 <img src="https://github.com/seljabali/android-design-tokens/raw/master/screenshots/paddings.png" alt="" data-canonical-src="" width="500" height="600" />
@@ -31,19 +31,19 @@ Android app that visualizes design tokens for both designers & developers.
 ### Text Sizes/Appearances
 - Show cases Android Material text appearances.
 - Show cases AppCompat text appearances.
-<img src="https://github.com/seljabali/android-design-tokens/raw/master/screenshots/text_appearances.png" alt="" data-canonical-src="" width="500" height="600" />
+<img src="https://github.com/seljabali/android-design-tokens/raw/master/screenshots/text_appearances.png" alt="" data-canonical-src="" width="500" height="800" />
 
 ### Corner Radiuses
-<img src="https://github.com/seljabali/android-design-tokens/raw/master/screenshots/corner_radiuses.png" alt="" data-canonical-src="" width="500" height="400" />
+<img src="https://github.com/seljabali/android-design-tokens/raw/master/screenshots/corner_radiuses.png" alt="" data-canonical-src="" width="500" height="800" />
 
 ### Letter Spacings
-<img src="https://github.com/seljabali/android-design-tokens/raw/master/screenshots/letter_spacings.png" alt="" data-canonical-src="" width="500" height="600" />
+<img src="https://github.com/seljabali/android-design-tokens/raw/master/screenshots/letter_spacings.png" alt="" data-canonical-src="" width="500" height="800" />
 
 ### Colors
 <img src="https://github.com/seljabali/android-design-tokens/raw/master/screenshots/colors.png" alt="" data-canonical-src="" width="500" height="600" />
 
 ### Transparencies
-<img src="https://github.com/seljabali/android-design-tokens/raw/master/screenshots/transparencies.png" alt="" data-canonical-src="" width="500" height="400" />
+<img src="https://github.com/seljabali/android-design-tokens/raw/master/screenshots/transparencies.png" alt="" data-canonical-src="" width="500" height="800" />
 
 ## LICENSE
 This is free and unencumbered software released into the public domain.
