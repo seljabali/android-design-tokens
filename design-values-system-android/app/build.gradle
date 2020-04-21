@@ -13,7 +13,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.seljabali.designvaluesystem"
+        applicationId "com.seljabali.designtokens"
         minSdkVersion project.minSdkVersion
         targetSdkVersion project.targetSdkVersion
         compileSdkVersion project.compileSdkVersion

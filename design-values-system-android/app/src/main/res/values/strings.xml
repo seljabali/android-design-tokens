@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Design Value System</string>
+    <string name="app_name">Design Tokens</string>
 
     <!-- Landing Page -->
     <string name="spacings">Spacings</string>
-    <string name="text_sizes">Text Sizes</string>
+    <string name="text_appearances">Text Appearances</string>
     <string name="corner_radiuses">Corner Radiuses</string>
     <string name="elevations">Elevations</string>
     <string name="letter_spacings">Letter Spacings</string>
@@ -13,8 +13,8 @@
     <!-- Spacing -->
     <string name="horizontal_spacings">Horizontal Spacings</string>
     <string name="vertical_spacings">Vertical Spacings</string>
-    <string name="padding">Padding</string>
-    <string name="paddings">Paddings</string>
+    <string name="surrounding">Surrounding</string>
+    <string name="surrounding_spacings">Surrounding Spacings</string>
     <string name="vertical">Vertical</string>
     <string name="horizontal">Horizontal</string>
     <string name="linear">Linear</string>

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/android-design-tokens-design-values-system-android.iml" filepath="$PROJECT_DIR$/android-design-tokens-design-values-system-android.iml" group="design-values-system-android" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-values-system-android.iml" filepath="$PROJECT_DIR$/design-values-system-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/design-values-system-android-app.iml" filepath="$PROJECT_DIR$/app/design-values-system-android-app.iml" group="design-values-system-android/app" />
       <module fileurl="file://$PROJECT_DIR$/widgets/design-values-system-android-widgets.iml" filepath="$PROJECT_DIR$/widgets/design-values-system-android-widgets.iml" />
       <module fileurl="file://$PROJECT_DIR$/widgets/widgets.iml" filepath="$PROJECT_DIR$/widgets/widgets.iml" />
     </modules>
