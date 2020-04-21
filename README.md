@@ -26,7 +26,7 @@ Android app that visualizes design tokens for both designers & developers.
 <img src="https://github.com/seljabali/android-design-value-system/raw/master/screenshots/horizontal.png" alt="" data-canonical-src="" width="500" height="800" />
 
 ### Padding
-<img src="https://github.com/seljabali/android-design-tokens/raw/master/screenshots/paddings.png" alt="" data-canonical-src="" width="500" height="600" />
+<img src="https://github.com/seljabali/android-design-tokens/raw/master/screenshots/paddings.png" alt="" data-canonical-src="" width="500" height="800" />
 
 ### Text Sizes/Appearances
 - Show cases Android Material text appearances.
@@ -40,7 +40,7 @@ Android app that visualizes design tokens for both designers & developers.
 <img src="https://github.com/seljabali/android-design-tokens/raw/master/screenshots/letter_spacings.png" alt="" data-canonical-src="" width="500" height="800" />
 
 ### Colors
-<img src="https://github.com/seljabali/android-design-tokens/raw/master/screenshots/colors.png" alt="" data-canonical-src="" width="500" height="600" />
+<img src="https://github.com/seljabali/android-design-tokens/raw/master/screenshots/colors.png" alt="" data-canonical-src="" width="500" height="800" />
 
 ### Transparencies
 <img src="https://github.com/seljabali/android-design-tokens/raw/master/screenshots/transparencies.png" alt="" data-canonical-src="" width="500" height="800" />
