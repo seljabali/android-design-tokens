@@ -26,4 +26,4 @@ This app is complementary to [an article](https://uxplanet.org/the-one-system-ev
 <img src="https://github.com/seljabali/android-design-tokens/raw/master/screenshots/colors.png" alt="" data-canonical-src="" width="500" height="900" />
 
 # LICENSE
-[This is free and unencumbered software released into the public domain.](https://github.com/seljabali/android-design-tokens/blob/master/LICENSE)
+[Creative Commons Zero v1.0 Universal.](https://github.com/seljabali/android-design-tokens/blob/master/LICENSE)
