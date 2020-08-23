@@ -21,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
-            android:layout_marginTop="@dimen/s_vertical_spacing_exp"
+            android:layout_marginTop="@dimen/s_vertical_spacing"
             app:layout_constraintTop_toBottomOf="@id/textStyleNameTextView"
             app:layout_constraintStart_toStartOf="parent"
             tools:text="SP: 16" />
@@ -30,7 +30,7 @@
             android:id="@+id/textStyleSizeSpTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/s_horizontal_spacing_exp"
+            android:layout_marginStart="@dimen/s_horizontal_spacing"
             android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
             app:layout_constraintTop_toTopOf="@id/textStyleSizePxTextView"
             app:layout_constraintStart_toEndOf="@id/textStyleSizePxTextView"

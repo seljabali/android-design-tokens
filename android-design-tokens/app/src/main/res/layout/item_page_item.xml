@@ -19,8 +19,8 @@
 
         <ImageView
                 android:id="@+id/pageItemIconImageView"
-                android:layout_width="@dimen/landingPageIconSize"
-                android:layout_height="@dimen/landingPageIconSize"/>
+                android:layout_width="@dimen/landing_page_icon_size"
+                android:layout_height="@dimen/landing_page_icon_size"/>
 
         <TextView
                 android:id="@+id/pageItemNameTextView"

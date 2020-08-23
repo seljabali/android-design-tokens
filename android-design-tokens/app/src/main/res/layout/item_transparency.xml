@@ -31,7 +31,7 @@
             android:id="@+id/transparencyView"
             android:layout_width="@dimen/horizontal_block_width"
             android:layout_height="@dimen/horizontal_block_height"
-            android:layout_marginTop="@dimen/m_vertical_spacing_exp"
+            android:layout_marginTop="@dimen/m_vertical_spacing"
             android:background="@color/spacings_block_color"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

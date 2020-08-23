@@ -15,7 +15,7 @@
             android:layout_height="match_parent"
             android:paddingTop="@dimen/m_vertical_spacing"
             android:horizontalSpacing="@dimen/m_horizontal_spacing"
-            android:columnWidth="@dimen/landingPageGridColumnWidth"
+            android:columnWidth="@dimen/landing_page_grid_column_width"
             android:numColumns="2"
             android:verticalSpacing="@dimen/xxl_vertical_spacing"
             android:stretchMode="columnWidth"

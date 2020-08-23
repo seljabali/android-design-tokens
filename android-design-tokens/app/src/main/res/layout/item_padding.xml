@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/m_vertical_spacing"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:padding="@dimen/m_padding_exp"
+            android:padding="@dimen/m_padding"
             android:background="@color/spacings_block_color"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/paddingPxValueTextView"
